@@ -1,0 +1,20 @@
+#sidebar {
+  background: #575757;
+  /* 100% of the viewport height */
+  height: 100vh;
+  /* recommended width for sidebar */
+  width: 420px;
+
+  /* fixed position creates a second layer on top of main layer "body" element for overlay visual effect  */
+  position: fixed;
+}
+
+body {
+  margin: 0;
+}
+
+#dashboard {
+  margin-left: 420px;
+  height: 200px;
+  background: rgb(196, 230, 61);
+}
